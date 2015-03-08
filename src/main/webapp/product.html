@@ -8,7 +8,7 @@
 		<meta name="description" content="洄瀾預購週" />
 		<meta name="author" content="Jerry" />
 
-		 <style>
+    <style>
     	body{
     		font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", sans-serif;
     	}	
@@ -17,10 +17,13 @@
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/menu_component.css" />
+		<!--link rel="stylesheet" type="text/css" href="css/default.css" /-->
+		<!--link rel="stylesheet" type="text/css" href="css/menu_component.css" /-->
+		<!--link rel="stylesheet" type="text/css" href="modal/css/component.css" /-->
+		
 		
 		<link rel="stylesheet" type="text/css" href="css/hualien-style.css" />
+		
 
 		<script src="js/jquery-2.1.0.min.js"></script>
 			<script src="js/bootstrap.js"></script>
@@ -40,8 +43,7 @@
 	<script type="text/javascript" src="js/tabletop.js"></script>
 
 
-	<link rel="stylesheet" type="text/css" href="modal/css/component.css" />
-
+	
 	</head>
 	<body>
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
@@ -60,53 +62,45 @@
 		  </div>
 		</div>
 	</div>
-		<div class="container">
-			<div class="codrops-top clearfix">
-				<div class="main clearfix">
-					<nav id="menu" class="nav">			
-						<ul>
-							<li>
-								<a href="news.html">
-									<span class="icon">
-										<i aria-hidden="true" class="icon-news"></i>
-									</span>
-									<span>News!</span>
-								</a>
-							</li>
-							<li>
-								<a href="events.html">
-									<span class="icon"> 
-										<i aria-hidden="true" class="icon-event"></i>
-									</span>
-									<span>活動介紹</span>
-								</a>
-							</li>
-							<li>
-								<a href="product.html">
-									<span class="icon">
-										<i aria-hidden="true" class="icon-gift"></i>
-									</span>
-									<span>紀念商品</span>
-								</a>
-							</li>
-						
-						</ul>
-					</nav>
-				</div>		
+		
+<nav class="navbar navbar-default" style="margin-bottom: 0; ">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">清大花友會</a>
+    </div>
 
-			</div>
-
-			<!-- Codrops top bar -->
-
-
-			<header class="clearfix">
-				<h1>洄瀾預購週商品</h1>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-cutlery"></span> 開始預購 <span class="sr-only">(current)</span></a></li>
+        <li><a href="info.html"><span class="glyphicon glyphicon-info-sign"></span>  預購說明</a></li>
+        <li><a href="https://www.facebook.com/2013nthuhua"><span class="glyphicon glyphicon-thumbs-up"></span>  粉絲專頁</a></li>
+      
+      </ul>
+ 
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+		<div class="container-fluid">
+			<header class="buy-title">
+				<h1>洄瀾週預購</h1>
+				<h1>3/9~3/13</h1>
+				<h3>讓您心如洄瀾，縈迴、激盪，而充滿寧靜的氣息</h3>
 			</header>
-			<div class="col-md-2" style="margin-top: 15px; position: fixed;">
+			
+			
+			<div class="col-md-2" style="margin-top: 0px; z-index:3" >
 			    <!-- class="bs-docs-sidebar hidden-print affix-bottom" role="complementary" -->
 			    <div  style=" top:50px;  z-index:10; ">
 			        	<ul>
-				        	 <div class="panel panel-primary" >
+				        	 <div class="panel panel-default" id="shopping-cart">
 				        	 	<div class="panel-heading">
 				        	 		 <span class="glyphicon glyphicon-shopping-cart"></span> 
 				        	 		 購物車
@@ -120,18 +114,17 @@
 						</ul>
 				</div>
 			</div>
-			<div class="col-md-9" style="margin-top: 15px; margin-left: 20%">
+			<div class="col-md-9 product-section">
 				<!--div id ="modals">
 					
 				</div-->
 					
-				<div class="panel panel-warning" style="">
+				<div class="panel panel-warning">
 						  <!-- Default panel contents -->
 						  <div class="panel-heading"><h1>德利豆干</h1></div>
 						  <div class="panel-body">
 						    <div class="col-md-4">
-						    	<div class="panel panel-warning" style="">
-								  <!-- Default panel contents -->
+						    	<div class="panel panel-warning">
 							
 								  <div class="panel-body">
 								    <img src="http://gdurl.com/kZEw" style="width:100%;"/>
@@ -173,13 +166,11 @@
 						  </div>
 			    </div>
 
-<div class="panel panel-warning" style="">
-						  <!-- Default panel contents -->
+				<div class="panel panel-warning">
 						  <div class="panel-heading"><h1>德利豆干</h1></div>
 						  <div class="panel-body">
 						    <div class="col-md-4">
 						    	<div class="panel panel-warning" style="">
-								  <!-- Default panel contents -->
 							
 								  <div class="panel-body">
 								    <img src="http://gdurl.com/kZEw" style="width:100%;"/>
@@ -207,8 +198,6 @@
 
 							<div class="col-md-4">
 						    	<div class="panel panel-warning" style="">
-								  <!-- Default panel contents -->
-								
 								  <div class="panel-body">
 								    <img src="http://gdurl.com/5z5u" style="width:100%;"/>
 								    	<h2>微辣</h2>
@@ -220,45 +209,6 @@
 
 						  </div>
 			    </div>
-
-
-				<div id="mi-slider" class="mi-slider">
-					
-					<ul id = 'productlist1' >
-					<li>
-						
-					</li>
-					<!--
-						<li>
-						<h3>梅竹衫</h3>
-							<img src="images/product/unknown.png" alt="img01">
-			      			<p>網路價：100元</p>
-							<p>訂購數量：  <input style="width:60px; display: inline;" type="number" class="form-control" value="0" min="0" max="100"></p>
-			        		<button type="button" id="add-to-cart2" class="btn btn-success btn-lg">
-					  			<span class="glyphicon glyphicon-shopping-cart"></span> 加到購物車
-							</button>
-						</li>
-					!-->
-					<!--
-						<li><a href="#"><img src="images/1.jpg" alt="img01"><h4>紅包袋</h4></a></li>
-						<li><a href="#"><img src="images/2.jpg" alt="img02"><h4>帆布袋</h4></a></li>
-						<li><a href="#"><img src="images/3.jpg" alt="img03"><h4>夾腳拖</h4></a></li>
-						<li><a href="#"><img src="images/4.jpg" alt="img04"><h4></h4></a></li>
-						-->
-					</ul>
-					<!--ul id = 'productlist2'>
-						
-					</ul-->
-					
-					<nav>
-						<a href="#" >衣物類</a>
-						<!--a href="#">手持類</a-->
-					</nav>
-				</div>
-				
-					 
-
-
 			</div>
 		
 		</div><!-- /container -->

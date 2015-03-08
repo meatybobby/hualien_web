@@ -23,20 +23,20 @@ var addtocartsetup= function()
         +"</div>"
         
          +"<h4 class='text-center'>"
-            +"<button type='button' id='send' class='btn btn-primary btn-lg' style='width:80%'>"
-                  +"<span class='glyphicon glyphicon-ok'></span>下訂單"
+            +"<button type='button' id='send' class='btn btn-default btn-lg' style='width:80%'>"
+                  +"<span class='glyphicon glyphicon-ok'></span> 下訂單"
                 +"</button>"
         +"</h4>"
         +"<h4 class='text-center'>"
-            +"<button type='button' id='search' class='btn btn-primary btn-lg' style='width:80%'>"
-                  +"<span class='glyphicon glyphicon-search'></span>查詢訂單"
+            +"<button type='button' id='search' class='btn btn-default btn-lg' style='width:80%'>"
+                  +"<span class='glyphicon glyphicon-search'></span> 查詢訂單"
                 +"</button>"
         +"</h4>"
     reservationArray = new Array();
     $('button[id^=add-to-cart]').click(
         function()
         {  
-            console.log('add button clicked!');
+            //console.log('add button clicked!');
             var split = $(this).attr('id').split('add-to-cart')
             var i = parseInt(split[1]);
                 var res = new Object();
