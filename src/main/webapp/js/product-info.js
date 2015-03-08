@@ -2,12 +2,16 @@
  
 
 var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true';
+var public_spreadsheet_url = '//https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true';
+//https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true
+//https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/edit#gid=0
 
+//梅竹網https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true
 //https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true
 function init() {
 addtocartsetup();
   updateCartInfo();
-  $('#productlist1').html("<p>努力讀取中...休淡幾壘</p>");
+ // $('#productlist1').html("<p>努力讀取中...休淡幾壘</p>");
 
   Tabletop.init( { key: public_spreadsheet_url,
                    callback: showInfo,
