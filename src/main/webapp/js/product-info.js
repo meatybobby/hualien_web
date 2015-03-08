@@ -1,9 +1,9 @@
  $(document).ready(init);
  
 
-var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true';
+var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true';
 
-//https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/edit#gid=0
+//https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true
 function init() {
 addtocartsetup();
   updateCartInfo();

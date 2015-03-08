@@ -101,7 +101,7 @@ function updateCartInfo()
         string+="<h4>總價："+totalprice+"</h4>"+"<hr>"+ reserveFormString;
         cartPrice = totalprice;
 
-        string="<div class='thumbnail'>預購結束<div>"
+        //string="<div class='thumbnail'>預購結束<div>"
     $('#cart').html(string);
     removeSetup();
     sendReservationSetup();

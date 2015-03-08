@@ -45,6 +45,7 @@ public class ReservationServlet extends HttpServlet {
 	 	String name = null;
 	 	String email = null;
 	 	String total = null;
+	 	String takeTime = null;
 	 	JSONArray reserves = null;
         try {
         	String reqString = JSONUtility.reqToJSONString(req);
@@ -69,6 +70,8 @@ public class ReservationServlet extends HttpServlet {
 			reserves = jsonobj.getJSONArray("reserve");
 			System.out.println(reserves);
 			}
+			if(jsonobj.has("takeTime"))
+				takeTime=jsonobj.getString("takeTime");
 			
 		} catch ( JSONException e1) {
 			// TODO Auto-generated catch block
@@ -99,7 +102,7 @@ public class ReservationServlet extends HttpServlet {
         reservationEntity.setProperty("date", createTime);
         reservationEntity.setProperty("phone", phone);
         reservationEntity.setProperty("name",name);
-    
+        reservationEntity.setProperty("takeTime", takeTime);
         reservationEntity.setProperty("paid", "false");
         if(reserves!=null)
         	System.out.println(reserves.length());
