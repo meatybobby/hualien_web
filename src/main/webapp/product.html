@@ -4,9 +4,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>乙末梅竹工作會</title>
-		<meta name="description" content="乙末梅竹工作會" />
-		<meta name="keywords" content="梅竹, 梅工, 乙末梅竹工作會, 乙末" />
+		<title>洄瀾預購週</title>
+		<meta name="description" content="洄瀾預購週" />
 		<meta name="author" content="Jerry" />
 
 		 <style>
@@ -20,7 +19,8 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/menu_component.css" />
-	
+		
+		<link rel="stylesheet" type="text/css" href="css/hualien-style.css" />
 
 		<script src="js/jquery-2.1.0.min.js"></script>
 			<script src="js/bootstrap.js"></script>
@@ -45,26 +45,25 @@
 	</head>
 	<body>
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
-				  <div class="modal-dialog" style="z-index:10000">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				        <h4 class="modal-title" id="myModalLabel">下單中</h4>
-				      </div>
-				      <div class="modal-body">
-				        	請稍後...
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" id='ok' class="btn btn-default" data-dismiss="modal">OK</button>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-		<div class="container">	
+		<div class="modal-dialog" style="z-index:10000">
+		  <div class="modal-content">
+		    <div class="modal-header">
+		      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		      <h4 class="modal-title" id="myModalLabel">下單中</h4>
+		    </div>
+		    <div class="modal-body">
+		      	請稍後...
+		    </div>
+		    <div class="modal-footer">
+		      <button type="button" id='ok' class="btn btn-default" data-dismiss="modal">OK</button>
+		    </div>
+		  </div>
+		</div>
+	</div>
+		<div class="container">
 			<div class="codrops-top clearfix">
-			<div class="main clearfix">
-			
-				<nav id="menu" class="nav">					
+				<div class="main clearfix">
+					<nav id="menu" class="nav">			
 						<ul>
 							<li>
 								<a href="news.html">
@@ -90,46 +89,22 @@
 									<span>紀念商品</span>
 								</a>
 							</li>
-							<li>
-								<a href="timeline.html">
-									<span class="icon">
-										<i aria-hidden="true" class="icon-meichu"></i>
-									</span>
-									<span>關於梅竹賽</span>
-								</a>
-							</li>
-							<li>
-								<a href="staff.html">
-									<span class="icon">
-										<i aria-hidden="true" class="icon-team"></i>
-									</span>
-									<span>梅工團隊</span>
-								</a>
-							</li>
-							<li>
-								<a href="picture.html">
-									<span class="icon">
-										<i aria-hidden="true" class="icon-picture"></i>
-									</span>
-									<span>照片集錦</span>
-								</a>
-							</li>
+						
 						</ul>
 					</nav>
-
 				</div>		
 
 			</div>
 
 			<!-- Codrops top bar -->
-			
 
 
 			<header class="clearfix">
-				<h1>紀念商品<span><a href="rules.html" style="color:#884512;">!-預購規則-!</a></span></h1>
+				<h1>洄瀾預購週商品</h1>
 			</header>
-			<div class="col-md-4">
-			        	<div class="bs-docs-sidebar hidden-print affix-bottom" role="complementary" style=" position:absolute; top:50px;  z-index:10; ">
+			<div class="col-md-2" style="margin-top: 15px; position: fixed;">
+			    <!-- class="bs-docs-sidebar hidden-print affix-bottom" role="complementary" -->
+			    <div  style=" top:50px;  z-index:10; ">
 			        	<ul>
 				        	 <div class="panel panel-primary" >
 				        	 	<div class="panel-heading">
@@ -142,18 +117,117 @@
 									  
 									 
 							  </div>
-						  </ul>
-						 </div>
-			        </div>
-			<div class="main">
-				<div id ="modals">
-					
+						</ul>
 				</div>
+			</div>
+			<div class="col-md-9" style="margin-top: 15px; margin-left: 20%">
+				<!--div id ="modals">
 					
+				</div-->
+					
+				<div class="panel panel-warning" style="">
+						  <!-- Default panel contents -->
+						  <div class="panel-heading"><h1>德利豆干</h1></div>
+						  <div class="panel-body">
+						    <div class="col-md-4">
+						    	<div class="panel panel-warning" style="">
+								  <!-- Default panel contents -->
+							
+								  <div class="panel-body">
+								    <img src="http://gdurl.com/kZEw" style="width:100%;"/>
+								    	<h2>原味</h2>
+								    	<p>售價：NT$ 120</p>
+										<p class='num'>訂購數量：
+											<select  name='num'>
+										        <option value='S'>S</option>
+										        <option selected value='1'>1</option>
+										        <option value='2'>2</option>
+										        <option value='3'>3</option>
+										        <option value='4'>4</option>
+										        <option value='5'>5</option>
+								            </select>
+								        </p></br>
+								        <button type='button' id='add-to-cart0' class='btn btn-warning btn-lg'>
+							               <span class='glyphicon glyphicon-shopping-cart'></span>加到購物車
+							            </button>
+
+
+								   </div>
+							
+			   					</div>
+						    </div>
+
+							<div class="col-md-4">
+						    	<div class="panel panel-warning" style="">
+								  <!-- Default panel contents -->
+								
+								  <div class="panel-body">
+								    <img src="http://gdurl.com/5z5u" style="width:100%;"/>
+								    	<h2>微辣</h2>
+								    	<p>售價：NT$ 120</p>
+								   </div>
+							
+			   					</div>
+						    </div>
+
+						  </div>
+			    </div>
+
+<div class="panel panel-warning" style="">
+						  <!-- Default panel contents -->
+						  <div class="panel-heading"><h1>德利豆干</h1></div>
+						  <div class="panel-body">
+						    <div class="col-md-4">
+						    	<div class="panel panel-warning" style="">
+								  <!-- Default panel contents -->
+							
+								  <div class="panel-body">
+								    <img src="http://gdurl.com/kZEw" style="width:100%;"/>
+								    	<h2>原味</h2>
+								    	<p>售價：NT$ 120</p>
+										<p class='num'>訂購數量：
+											<select  name='num'>
+										        <option value='S'>S</option>
+										        <option selected value='1'>1</option>
+										        <option value='2'>2</option>
+										        <option value='3'>3</option>
+										        <option value='4'>4</option>
+										        <option value='5'>5</option>
+								            </select>
+								        </p></br>
+								        <button type='button' id='add-to-cart0' class='btn btn-warning btn-lg'>
+							               <span class='glyphicon glyphicon-shopping-cart'></span>加到購物車
+							            </button>
+
+
+								   </div>
+							
+			   					</div>
+						    </div>
+
+							<div class="col-md-4">
+						    	<div class="panel panel-warning" style="">
+								  <!-- Default panel contents -->
+								
+								  <div class="panel-body">
+								    <img src="http://gdurl.com/5z5u" style="width:100%;"/>
+								    	<h2>微辣</h2>
+								    	<p>售價：NT$ 120</p>
+								   </div>
+							
+			   					</div>
+						    </div>
+
+						  </div>
+			    </div>
+
+
 				<div id="mi-slider" class="mi-slider">
 					
-					<ul id = 'productlist1'>
-					
+					<ul id = 'productlist1' >
+					<li>
+						
+					</li>
 					<!--
 						<li>
 						<h3>梅竹衫</h3>
@@ -172,19 +246,13 @@
 						<li><a href="#"><img src="images/4.jpg" alt="img04"><h4></h4></a></li>
 						-->
 					</ul>
-					<ul id = 'productlist2'>
+					<!--ul id = 'productlist2'>
 						
-					</ul>
-					<ul>
-						<li><a href="http://meichu2013.nthu.idv.tw/product/product.php?cId=1"><img src="https://a53db02f81033c0174d26e560c9495c129f3ad6f.googledrive.com/host/0B730ssCZsL8TT0VvVFlSdWptZjA/2013.png" alt="img12"><h4>癸巳商品</h4></a></li>
-						<li><a href="http://meichu2012.nthu.idv.tw/product/product.php"><img src="https://a53db02f81033c0174d26e560c9495c129f3ad6f.googledrive.com/host/0B730ssCZsL8TT0VvVFlSdWptZjA/2012.png" alt="img13"><h4>壬辰梅竹商品</h4></a></li>
-						<li><a href="http://140.114.186.235/meichuclub/web/pic2011/index.html#"><img src="https://a53db02f81033c0174d26e560c9495c129f3ad6f.googledrive.com/host/0B730ssCZsL8TT0VvVFlSdWptZjA/2011.png" alt="img14"><h4>辛卯梅竹商品</h4></a></li>
-						<li><a href="http://140.114.186.235/meichuclub/web/oldproductpic/index.html#"><img src="https://a53db02f81033c0174d26e560c9495c129f3ad6f.googledrive.com/host/0B730ssCZsL8TT0VvVFlSdWptZjA/2010.png" alt="img15"><h4>庚寅梅竹商品</h4></a></li>
-					</ul>
+					</ul-->
+					
 					<nav>
 						<a href="#" >衣物類</a>
-						<a href="#">手持類</a>
-						<a href="#">歷屆商品</a>
+						<!--a href="#">手持類</a-->
 					</nav>
 				</div>
 				

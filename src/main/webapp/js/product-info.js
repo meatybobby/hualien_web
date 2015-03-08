@@ -1,13 +1,16 @@
  $(document).ready(init);
  
 
-var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true';
+var public_spreadsheet_url = '//https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true';
+//https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true
+//https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/edit#gid=0
 
+//梅竹網https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true
 //https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/edit#gid=0
 function init() {
 addtocartsetup();
   updateCartInfo();
-  $('#productlist1').html("<p>努力讀取中...休淡幾壘</p>");
+ // $('#productlist1').html("<p>努力讀取中...休淡幾壘</p>");
 
   Tabletop.init( { key: public_spreadsheet_url,
                    callback: showInfo,
@@ -24,7 +27,7 @@ function updateGrid(data)
 
     products = data;
     var modalString ='';
-    for(var listNum = 0;listNum<2;listNum++){
+    for(var listNum = 0;listNum<1;listNum++){
 
      var tableString ='';
         for(var i=0;i<4;i++)
@@ -55,7 +58,7 @@ function updateGrid(data)
         +"</select></p>";
           }
           else if(products[index].hasSize=='part')
-            {
+          {
             tableString+="<p class='size'>尺寸： <select  name='size'>"
           +"<option value='S'>S</option>"
           +"<option selected value='M'>M</option>"
@@ -123,9 +126,9 @@ function updateGrid(data)
          +"</div>";
       }
   $('#productlist'+(listNum+1)).html(tableString);
-  $('#modals').html(modalString+'<div class="md-overlay"></div>');
+ //$('#modals').html(modalString+'<div class="md-overlay"></div>');
   }
     //$('#productTable').html(tableString);
   addtocartsetup();
-  ModalEffects();
+ // ModalEffects();
 }

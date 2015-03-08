@@ -6,20 +6,29 @@ var addtocartsetup= function()
     console.log('add to cart setup');
     reserveFormString = "<div class='form-group'>"
             +"<label for='exampleInputPassword1'>姓名</label>"
-            +"<input  class='form-control' type='text' id='name' value ='"+clientName+"' style='width:150px' />"
+            +"<input  class='form-control' type='text' id='name' value ='"+clientName+"' style='width:100%' />"
         +"</div>"
          +"<div class='form-group'>"
             +"<label for='exampleInputPassword1'>手機號碼</label>"
-            +"<input  class='form-control' type='text' id='phone' style='width:150px'/>"
+            +"<input  class='form-control' type='text' id='phone' style='width:100%'/>"
+        +"</div>"
+
+        +"<div class='form-group'>"
+            +"<label for='exampleInputPassword1'>領貨時間</label>"
+            +"<select  class='form-control' id='get-time' style='width:100%'>"
+              +"<option selected value='0'>3/17(二) 20:00-22:00小吃部</option>"
+              +"<option  value='1'>3/18(三) 20:00-22:00小吃部</option>"
+              +"<option value='2'>3/19(四) 20:00-22:00小吃部</option>"
+           +"</select>"
         +"</div>"
         
          +"<h4 class='text-center'>"
-            +"<button type='button' id='send' class='btn btn-primary btn-lg'>"
+            +"<button type='button' id='send' class='btn btn-primary btn-lg' style='width:80%'>"
                   +"<span class='glyphicon glyphicon-ok'></span>下訂單"
                 +"</button>"
         +"</h4>"
         +"<h4 class='text-center'>"
-            +"<button type='button' id='search' class='btn btn-primary btn-lg'>"
+            +"<button type='button' id='search' class='btn btn-primary btn-lg' style='width:80%'>"
                   +"<span class='glyphicon glyphicon-search'></span>查詢訂單"
                 +"</button>"
         +"</h4>"
@@ -27,6 +36,7 @@ var addtocartsetup= function()
     $('button[id^=add-to-cart]').click(
         function()
         {  
+            console.log('add button clicked!');
             var split = $(this).attr('id').split('add-to-cart')
             var i = parseInt(split[1]);
                 var res = new Object();
@@ -101,7 +111,7 @@ function updateCartInfo()
         string+="<h4>總價："+totalprice+"</h4>"+"<hr>"+ reserveFormString;
         cartPrice = totalprice;
 
-        string="<div class='thumbnail'>預購結束<div>"
+        //string="<div class='thumbnail'>預購結束<div>"
     $('#cart').html(string);
     removeSetup();
     sendReservationSetup();
