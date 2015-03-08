@@ -51,10 +51,9 @@ var sendReservationSetup= function()
             jobj.name = encodeURIComponent($("input#name").val());
             clientName =$("input#name").val();
             phone = jobj.phone;
-
+			var timeVal=parseInt($('#get-time').val());
             //jobj.email = "";
-            
-
+			jobj.takeTime="3/"+(17+timeVal);
             var sendArray = reservationArray.slice(0);
             
             for(var i=0;i<sendArray.length;i++)
