@@ -29,14 +29,10 @@ var sendReservationSetup= function()
                 reservation.date = undefined;
                 reservation.total= undefined;
                 reservation.phone= undefined;
-<<<<<<< HEAD
                 reservation.takeTime = undefined;
                 reservation.taken = undefined;
        
-=======
 
-
->>>>>>> branch 'master' of https://github.com/meatybobby/hualien_web.git
                 var output = '';
                 for(var key in reservation)
                 {
@@ -46,12 +42,9 @@ var sendReservationSetup= function()
                     output+=key+" x"+obj;
 
                 }
-<<<<<<< HEAD
                 output+="\n總價："+total+"\n領取時間"+takeTime;
 				//console.log(output);
-=======
 
->>>>>>> branch 'master' of https://github.com/meatybobby/hualien_web.git
                 alert(output);
             });
         }

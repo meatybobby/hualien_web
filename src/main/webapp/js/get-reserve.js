@@ -75,10 +75,12 @@ function searchReserve()
                          var total = reservation.total;
 
                          delete reservation.paid;
-                                        delete reservation.name;
-                                        delete reservation.date;
-                                        delete reservation.total;
-                                        delete reservation.phone;
+                         delete reservation.name;
+                         delete reservation.date;
+                         delete reservation.total;
+                         delete reservation.phone;
+                         delete reservation.takeTime;
+                         delete reservation.taken;
                          tableString+="<tr>"
                                                 +"<th>-</th>"
                                                 +"<th>"+clientName+"</th>"
