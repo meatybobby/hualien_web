@@ -21,14 +21,17 @@ var sendReservationSetup= function()
                 
                 var obj = jQuery.parseJSON(resp);
                 var reservation = obj.reservations[0];
-                console.log();
-                //
+                //console.log(obj);
+                var total=reservation.total;
+                var takeTime=reservation.takeTime;
                 reservation.paid =undefined;
                 reservation.name =undefined;
                 reservation.date = undefined;
                 reservation.total= undefined;
                 reservation.phone= undefined;
-
+                reservation.takeTime = undefined;
+                reservation.taken = undefined;
+       
                 var output = '';
                 for(var key in reservation)
                 {
@@ -38,6 +41,8 @@ var sendReservationSetup= function()
                     output+=key+" x"+obj;
 
                 }
+                output+="\n總價："+total+"\n領取時間"+takeTime;
+				//console.log(output);
                 alert(output);
             });
         }

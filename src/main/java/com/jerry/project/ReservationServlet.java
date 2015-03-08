@@ -104,6 +104,7 @@ public class ReservationServlet extends HttpServlet {
         reservationEntity.setProperty("name",name);
         reservationEntity.setProperty("takeTime", takeTime);
         reservationEntity.setProperty("paid", "false");
+        reservationEntity.setProperty("taken", "false");
         if(reserves!=null)
         	System.out.println(reserves.length());
         for(int i=0;i<reserves.length();i++)
