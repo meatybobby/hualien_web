@@ -18,7 +18,7 @@ addtocartsetup();
                    simpleSheet: true } );
 }
 function showInfo(data, tabletop) {
-  updateGrid(data);
+  //updateGrid(data);
 }
 
 iconURL ="https://89a57e458b863f4e685427c3cabe0da86666b2b0-www.googledrive.com/host/0B730ssCZsL8Tfjc4UHFPUFdEZ21VRlQ4ejhaUTlsWkhEUWJFcWFoOWR4aVh6LUZqeU1WS00/";

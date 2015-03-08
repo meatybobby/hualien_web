@@ -1,0 +1,84 @@
+body {
+	font-family: "微軟正黑體";
+	background: #FFF9C4;
+}
+.buy-title {
+
+	top: 0px;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 15px;
+	background: #FFECB3;
+}
+.product-section{
+	margin-top: 15px;
+	margin-left: 30px;
+
+}
+#shopping-cart{
+	position: fixed;
+}
+@media (min-width: 993px){
+	#cart{
+		height: 450px;
+		overflow: auto;
+	}
+}
+@media (max-width: 992px) {
+	#shopping-cart{
+		position: relative;
+	}
+	.product-section{
+		margin-left: 0;
+	}
+	
+}
+
+.navbar-default {
+	background-color: #6D4C41;
+	border-color: #795548;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #fff2e6;
+}
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #fff2e6;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #A1887F;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #fff2e6;
+	background-color: #cc9a51;
+}
+.navbar-default .navbar-toggle {
+	border-color: #cc9a51;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #cc9a51;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+	color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+	color: #fff2e6;
+}
+
+

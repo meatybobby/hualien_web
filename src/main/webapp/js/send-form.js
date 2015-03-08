@@ -29,9 +29,14 @@ var sendReservationSetup= function()
                 reservation.date = undefined;
                 reservation.total= undefined;
                 reservation.phone= undefined;
+<<<<<<< HEAD
                 reservation.takeTime = undefined;
                 reservation.taken = undefined;
        
+=======
+
+
+>>>>>>> branch 'master' of https://github.com/meatybobby/hualien_web.git
                 var output = '';
                 for(var key in reservation)
                 {
@@ -41,8 +46,12 @@ var sendReservationSetup= function()
                     output+=key+" x"+obj;
 
                 }
+<<<<<<< HEAD
                 output+="\n總價："+total+"\n領取時間"+takeTime;
 				//console.log(output);
+=======
+
+>>>>>>> branch 'master' of https://github.com/meatybobby/hualien_web.git
                 alert(output);
             });
         }
@@ -91,7 +100,8 @@ var sendReservationSetup= function()
                         $('#myModal').modal('show');
                         $('.modal-body').html(
                         "<p>下單成功!!</p>"
-                        +"<p>開學後請至水木眼鏡行前付款</p>"
+                        +"<p>請在預購週結束前，至小吃部付款</p>"
+                        +"<p>並依選定日期，於下週至小吃部領取商品</p>"
                         
                         +"<p>*注意* 一支電話只能填寫一筆訂單，重複填寫會覆蓋掉之前的訂單</p>"
                         );

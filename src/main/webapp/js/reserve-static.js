@@ -34,12 +34,17 @@ function searchReserve()
                                         +"<th>"+reservation.name+"</th>"
                                         +"<th>"+reservation.phone+"</th>"
                                         +"<th>"+reservation.total+"</th>"
-                                        +"<th>"+reservation.date+"</th>";
+                                        +"<th>"+reservation.date+"</th>"
+                                        +"<th>"+reservation.takeTime+"</th>"
+                                        +"<th>"+reservation.taken+"</th>";
+                                        
                                         delete reservation.paid;
                                         delete reservation.name;
                                         delete reservation.date;
                                         delete reservation.total;
                                         delete reservation.phone;
+                                        delete reservation.takeTime;
+                                        delete reservation.taken;
 
 
                                         tableString+="<th>"+JSON.stringify(reservation)+"</th>"
