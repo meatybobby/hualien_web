@@ -1,0 +1,1325 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"reser",
+				"reservation"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"size",
+				"sizeImg"
+			],
+			[
+				"cli",
+				"clientName"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"H1",
+				"h1"
+			],
+			[
+				"mod",
+				"modalString"
+			],
+			[
+				"tabs",
+				"tableString"
+			],
+			[
+				"produ",
+				"product"
+			],
+			[
+				"list",
+				"listNum"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"res",
+				"reservationArray"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"dele",
+				"deleteClick"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ta",
+				"tableString"
+			],
+			[
+				"Clock",
+				"CLOCKS_PER_SEC"
+			],
+			[
+				"clo",
+				"clock_t"
+			],
+			[
+				"mute",
+				"mutex_wrcnt"
+			],
+			[
+				"is",
+				"isFirst"
+			],
+			[
+				"mutex_",
+				"mutex_rdcnt"
+			],
+			[
+				"mutex",
+				"mutex_rdcnt"
+			],
+			[
+				"mu",
+				"mutex_3"
+			],
+			[
+				"Read",
+				"ReaderWriterType"
+			],
+			[
+				"SCHE",
+				"Scheduler"
+			],
+			[
+				"Sche",
+				"ScheduleMode"
+			],
+			[
+				"priori",
+				"Priority"
+			],
+			[
+				"cur",
+				"currentThread"
+			],
+			[
+				"start",
+				"startBurstTime"
+			],
+			[
+				"tick",
+				"totalTicks"
+			],
+			[
+				"ready",
+				"readySJFList"
+			],
+			[
+				"Remov",
+				"RemoveFront"
+			],
+			[
+				"read",
+				"readySJFList"
+			],
+			[
+				"gam",
+				"GameObject(name)"
+			],
+			[
+				"game",
+				"gameObject	*(name)"
+			],
+			[
+				"gameobject",
+				"gameObject	*()"
+			],
+			[
+				"float",
+				"float	PropType.*"
+			],
+			[
+				"Time",
+				"Time.deltaTime	[property]"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/send-form.js",
+			"settings":
+			{
+				"buffer_size": 3480,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/jquery.catslider.js",
+			"settings":
+			{
+				"buffer_size": 3931,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/product-info.js",
+			"settings":
+			{
+				"buffer_size": 4888,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/add-to-cart.js",
+			"settings":
+			{
+				"buffer_size": 3401,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static.html",
+			"settings":
+			{
+				"buffer_size": 1676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reservation.html",
+			"settings":
+			{
+				"buffer_size": 1722,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/reserve-static.js",
+			"settings":
+			{
+				"buffer_size": 2356,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/get-reserve.js",
+			"settings":
+			{
+				"buffer_size": 4367,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/jerry/Dropbox/HuaMarket/war/js/get-product-static.js",
+			"settings":
+			{
+				"buffer_size": 1976,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "product.html",
+			"settings":
+			{
+				"buffer_size": 6739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rules.html",
+			"settings":
+			{
+				"buffer_size": 7294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "staff.html",
+			"settings":
+			{
+				"buffer_size": 5523,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chairman.html",
+			"settings":
+			{
+				"buffer_size": 3230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "executive.html",
+			"settings":
+			{
+				"buffer_size": 4027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "publicRelation.html",
+			"settings":
+			{
+				"buffer_size": 4249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "events.html",
+			"settings":
+			{
+				"buffer_size": 4438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 6940,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/demo.css",
+			"settings":
+			{
+				"buffer_size": 2071,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/remove-from-cart.js",
+			"settings":
+			{
+				"buffer_size": 409,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/http.js",
+			"settings":
+			{
+				"buffer_size": 684,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/timeline.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/news.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/modal/css/component.css",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/rules.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/modal/js/modalEffects.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/css/scrolling-nav.css",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/css/default.css",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/product.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/bootstrap-formhelpers.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/bootstrap.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/css/menu_component.css",
+		"/Users/jerry/Dropbox/HuaMarket/war/index.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/modal/index.html",
+		"/Users/jerry/Dropbox/HuaMarket/war/reservation.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/googlespreadsheet.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/editProduct.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/productInfo.js",
+		"/Users/jerry/Downloads/modal/js/classie.js",
+		"/Users/jerry/Downloads/modal/js/modalEffects.js",
+		"/Users/jerry/Downloads/ModalWindowEffects/index.html",
+		"/Users/jerry/Downloads/modal/js/cssParser.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/modal/css/dialog.css",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/wilma.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/modal/js/modernizr.custom.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/load-info.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/editProduct.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/remove-from-cart.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/send-form.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/make-reservation.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/css/bootstrap.min.css",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/add-to-cart.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/create-price.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/mark-taken.js",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/index.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/js/editProduct.html",
+		"/Users/jerry/railsbridge/job_board/app/views/jobs/ new.html.erb",
+		"/Users/jerry/railsbridge/job_board/config/initializers/wrap_parameters.rb",
+		"/Users/jerry/railsbridge/job_board/app/helpers/jobs_helper.rb",
+		"/Users/jerry/railsbridge/job_board/app/assets/javascripts/jobs.js.coffee",
+		"/Users/jerry/railsbridge/job_board/app/assets/stylesheets/jobs.css.scss",
+		"/Users/jerry/railsbridge/job_board/tmp/cache/assets/development/sass/d9e2aac2052185a9484da4e44cd3bacb8b24857f/jobs.css.scssc",
+		"/Users/jerry/railsbridge/job_board/config.ru",
+		"/Users/jerry/railsbridge/job_board/Rakefile",
+		"/Users/jerry/railsbridge/job_board/app/helpers/application_helper.rb",
+		"/Users/jerry/railsbridge/job_board/app/controllers/application_controller.rb",
+		"/Users/jerry/railsbridge/job_board/app/assets/stylesheets/application.css",
+		"/Users/jerry/railsbridge/job_board/config/application.rb",
+		"/Users/jerry/railsbridge/test_app/app/views/layouts/application.html.erb",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/mutex.c",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/scheduler.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/thread.cc",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/thread.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/userprog/exception.cc",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/machine.cc",
+		"/Users/jerry/Dropbox/HuaMarket/war/js/load-info.js",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/scheduler.cc",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/alarm.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/kernel.cc",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/interrupt.cc",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/main.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/kernel.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/machine.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/mipssim.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/stats.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/interrupt.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/timer.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/synch.h",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/stats.cc",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/threads/alarm.cc",
+		"/Users/jerry/Desktop/NachOS-4.0_MP3/code/machine/timer.cc",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/slopy/css/style.css",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/Meichu/war/slopy/index.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/picture/timeline.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/picture/news.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/picture/picture.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/picture/product.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/picture/executive.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/picture/events.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/ResponsiveRetinaReadyMenu/index.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/BookBlock/index5.html",
+		"/Users/jerry/Dropbox/web_cases/meichu_official/3DGalleryRoom-1/index.html",
+		"/Users/jerry/Dropbox/web_cases/meichu/register.html",
+		"/Users/jerry/Dropbox/web_cases/meichu/index.html",
+		"/Users/jerry/Dropbox/web_cases/meichu/js/grid3d.js",
+		"/Users/jerry/Desktop/PhotonR/Assets/_scripts/HitEffectBehavior.cs",
+		"/Users/jerry/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jerry/Downloads/M6_MatlabR2014a_for_Mac/InstallForMacOSX.app/Contents/MacOS/InstallForMacOSX"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"paycheck",
+			"google",
+			"                \n",
+			"panel",
+			"btn",
+			"close",
+			"width",
+			"50%",
+			"text-align: center;",
+			"background",
+			"color",
+			"modal",
+			"MODAL",
+			"overlay",
+			"zoom",
+			"trigger",
+			"z-in",
+			"p{",
+			"p {",
+			"</th>",
+			"<th>",
+			"number",
+			"pthread_mutex_lock",
+			"pthread_mutex_unlock",
+			"SystemTick",
+			"onetick",
+			"tick",
+			"SystemTick",
+			"SystemTicks",
+			"tick",
+			"time",
+			"tick",
+			"time",
+			"timer",
+			"header",
+			"body",
+			"clearfix",
+			".nav",
+			"color",
+			"color[",
+			"color",
+			"ss-form-ti",
+			"icon",
+			"jpg",
+			"編輯",
+			"邊ㄓㄧ",
+			"register",
+			"exce",
+			">\n",
+			"              <",
+			"              ",
+			"            \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"sem_wait",
+			"sem_post"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/send-form.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/jquery.catslider.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/product-info.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/add-to-cart.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "reservation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1196,
+								1205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 652.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/reserve-static.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1568,
+								1595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/get-reserve.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4242,
+								4242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1517.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/jerry/Dropbox/HuaMarket/war/js/get-product-static.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "product.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5418,
+								5325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "rules.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5211,
+								5211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2555.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "staff.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3869,
+								4058
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2935.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "chairman.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2311,
+								2311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1605.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "executive.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2445,
+								2445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1193.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "publicRelation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4011,
+								4011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "events.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4219,
+								4219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1481.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "css/demo.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "js/remove-from-cart.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "js/http.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "meichu.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"reser",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/reserve-static.js"
+			],
+			[
+				"static",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/reserve-static.js"
+			],
+			[
+				"se",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/send-form.js"
+			],
+			[
+				"rules",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/rules.html"
+			],
+			[
+				"sen",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/send-form.js"
+			],
+			[
+				"stat",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/static.html"
+			],
+			[
+				"stati",
+				"~/Dropbox/HuaMarket/war/js/get-product-static.js"
+			],
+			[
+				"send",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/send-form.js"
+			],
+			[
+				"pro",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/product-info.js"
+			],
+			[
+				"add",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/add-to-cart.js"
+			],
+			[
+				"product",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/product.html"
+			],
+			[
+				"produ",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/product-info.js"
+			],
+			[
+				"ru",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/rules.html"
+			],
+			[
+				"sta",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/static.html"
+			],
+			[
+				"remove",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/remove-from-cart.js"
+			],
+			[
+				"",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/send-form.js"
+			],
+			[
+				"http",
+				"~/Dropbox/web_cases/meichu_official/Meichu/war/js/http.js"
+			],
+			[
+				"new",
+				"app/views/jobs/ new.html.erb"
+			],
+			[
+				"jobs",
+				"app/controllers/jobs_controller.rb"
+			],
+			[
+				"create",
+				"db/migrate/20150119171427_create_jobs.rb"
+			],
+			[
+				"job",
+				"app/controllers/jobs_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"appli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"applica",
+				"app/assets/javascripts/application.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

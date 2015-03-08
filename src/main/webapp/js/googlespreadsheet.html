@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+    <title>Google Spreadsheet Javascript</title> 
+    <script type="text/javascript" src="jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="tabletop.js"></script>
+
+    <script type="text/javascript">
+     window.onload = function() { init() };
+
+    var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true';
+
+//https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/edit#gid=0
+    function init() {
+      Tabletop.init( { key: public_spreadsheet_url,
+                       callback: showInfo,
+                       simpleSheet: true } )
+    }
+
+    function showInfo(data, tabletop) {
+      alert("Successfully processed!")
+      console.log(data);
+    }
+
+    </script>
+    </head>
+  
+  <body>
+    
+  </body>
+</html>

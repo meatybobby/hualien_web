@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>Meichu</servlet-name>
+		<servlet-class>com.jerry.meichu.MeichuServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Meichu</servlet-name>
+		<url-pattern>/meichu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ProductEdit</servlet-name>
+		<servlet-class>com.jerry.project.ProductEditServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductEdit</servlet-name>
+		<url-pattern>/productEdit</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>SendReserve</servlet-name>
+		<servlet-class>com.jerry.project.ReservationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendReserve</servlet-name>
+		<url-pattern>/sendreserve</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetStatic</servlet-name>
+		<servlet-class>com.jerry.project.GetStaticServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetStatic</servlet-name>
+		<url-pattern>/getstatic</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetReservation</servlet-name>
+		<servlet-class>com.jerry.project.GetReservation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetReservation</servlet-name>
+		<url-pattern>/getreserve</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PayCheck</servlet-name>
+		<servlet-class>com.jerry.project.PayCheckServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PayCheck</servlet-name>
+		<url-pattern>/paycheck</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

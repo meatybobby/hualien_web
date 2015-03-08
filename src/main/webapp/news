@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+	<head>
+		<meta charset="UTF-8" />
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>關於梅工</title>
+		<meta name="description" content="Thumbnail Grid with Expanding Preview" />
+		<meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu_component.css" />
+		<link rel="stylesheet" type="text/css" href="css/staff_component.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo5.css" />
+
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<div class="codrops-top clearfix">
+			<div class="main clearfix">
+					<nav id="menu" class="nav">					
+						<ul>
+							<li>
+								<a href="news.html">
+									<span class="icon">
+										<i aria-hidden="true" class="icon-news"></i>
+									</span>
+									<span>News!</span>
+								</a>
+							</li>
+							<li>
+								<a href="events.html">
+									<span class="icon"> 
+										<i aria-hidden="true" class="icon-event"></i>
+									</span>
+									<span>活動介紹</span>
+								</a>
+							</li>
+							<li>
+								<a href="product.html">
+									<span class="icon">
+										<i aria-hidden="true" class="icon-gift"></i>
+									</span>
+									<span>紀念商品</span>
+								</a>
+							</li>
+							<li>
+								<a href="timeline.html">
+									<span class="icon">
+										<i aria-hidden="true" class="icon-meichu"></i>
+									</span>
+									<span>關於梅竹賽</span>
+								</a>
+							</li>
+							<li>
+								<a href="staff.html">
+									<span class="icon">
+										<i aria-hidden="true" class="icon-team"></i>
+									</span>
+									<span>梅工團隊</span>
+								</a>
+							</li>
+							<li>
+								<a href="picture.html">
+									<span class="icon">
+										<i aria-hidden="true" class="icon-picture"></i>
+									</span>
+									<span>照片集錦</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					</div>
+				</div>
+			<!-- Codrops top bar -->
+
+			
+			<header class="clearfix">
+				<h1>主席部<span>梅工老大</span></h1>	
+			</header>
+			<div class="main">
+				
+				<ul id="og-grid" class="og-grid">
+					<li>
+						<a href="adsf" data-largesrc="images/staff/chair1.jpg" data-title="主席 陳奕廷 材料16" data-description="" data-saying="">
+							<img class="gridPic" src="images/staff/chair1.jpg" alt="img01"/>
+						</a>
+		
+					</li>
+					<li>
+						<a href="adsf" data-largesrc="images/staff/chair2.jpg" data-title="總務 陳文諭 資工16" data-description="" data-saying="">
+							<img class="gridPic" src="images/staff/chair2.jpg" alt="img01"/>
+						</a>
+		
+					</li>
+					<li>
+						<a href="adsf" data-largesrc="images/staff/chair3.jpg" data-title="秘書 陳怡鳳 計財16" data-description="" data-saying="">
+							<img class="gridPic" src="images/staff/chair3.jpg" alt="img01"/>
+						</a>
+		
+					</li>
+				</ul>
+				
+			
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+	</body>
+</html>

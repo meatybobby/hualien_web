@@ -1,0 +1,66 @@
+var productNameArray;
+var productPriceArray;
+var panelIndexArray;
+var panelNameArray;
+
+var initPrice= function()
+{
+   productNameArray = new Array();
+   productPriceArray = new Array();
+   panelNameArray = new Array();
+   panelIndexArray = new Array();
+
+   panelIndexArray.push(0); panelNameArray.push('梅竹衫');
+   productNameArray.push('巧克力'); productPriceArray.push(250);
+   productNameArray.push('咖啡'); productPriceArray.push(100);    
+   panelIndexArray.push(2); panelNameArray.push('傳統麻糬餅系列');
+   productNameArray.push('綜合'); productPriceArray.push(100);     
+   productNameArray.push('牛奶'); productPriceArray.push(100);   
+   productNameArray.push('芋頭'); productPriceArray.push(100);    
+   productNameArray.push('綠茶'); productPriceArray.push(100);    
+   panelIndexArray.push(6); panelNameArray.push('花蓮薯/芋系列');
+   productNameArray.push('花蓮薯'); productPriceArray.push(100);   
+   productNameArray.push('花蓮芋'); productPriceArray.push(100);   
+   productNameArray.push('芋心番薯'); productPriceArray.push(100);  
+   productNameArray.push('山藥番薯'); productPriceArray.push(100);  
+   productNameArray.push('薯芋混合'); productPriceArray.push(100);  
+   panelIndexArray.push(11); panelNameArray.push('小麻糬系列');
+   productNameArray.push('水果'); productPriceArray.push(105);    
+   productNameArray.push('綠茶'); productPriceArray.push(105);  
+   productNameArray.push('紫米'); productPriceArray.push(105);    
+   panelIndexArray.push(14); panelNameArray.push('牛軋糖系列');
+   productNameArray.push('原味'); productPriceArray.push(180);       
+   productNameArray.push('抹茶南瓜子'); productPriceArray.push(180); 
+   productNameArray.push('牛奶杏仁'); productPriceArray.push(180); 
+   productNameArray.push('咖啡杏仁'); productPriceArray.push(180);  
+   panelIndexArray.push(18); panelNameArray.push('奶油方塊系列');   
+   productNameArray.push('紐西蘭奶油'); productPriceArray.push(100);     
+   productNameArray.push('北海道巧克力'); productPriceArray.push(140);   
+   productNameArray.push('巴西里香蒜'); productPriceArray.push(120);
+   productNameArray.push('黑巧克力'); productPriceArray.push(140);          
+   panelIndexArray.push(22); panelNameArray.push('年輪餅系列');
+   productNameArray.push('草莓'); productPriceArray.push(65);         
+   productNameArray.push('桑葚'); productPriceArray.push(65);         
+   productNameArray.push('蒜味'); productPriceArray.push(65);      
+   productNameArray.push('焦糖牛乳'); productPriceArray.push(65);    
+   productNameArray.push('義式咖啡'); productPriceArray.push(65);     
+   productNameArray.push('蘋果'); productPriceArray.push(65);        
+   productNameArray.push('水蜜桃'); productPriceArray.push(65);       
+   productNameArray.push('小年輪餅(*12)'); productPriceArray.push(210); 
+   panelIndexArray.push(30); panelNameArray.push('蛋糕系列');
+   productNameArray.push('提拉米蘇'); productPriceArray.push(250);     
+   productNameArray.push('提米蛋糕'); productPriceArray.push(280);     
+   productNameArray.push('布朗尼'); productPriceArray.push(280);       
+   productNameArray.push('黑岩乳酪'); productPriceArray.push(310);      
+   productNameArray.push('水晶奶酪'); productPriceArray.push(225);      
+   productNameArray.push('濃情巧克力'); productPriceArray.push(275);    
+   productNameArray.push('芋泥奶酪'); productPriceArray.push(275);      
+   panelIndexArray.push(37); panelNameArray.push('羊羹系列');   
+   productNameArray.push('紅豆'); productPriceArray.push(25);           
+   productNameArray.push('綠茶'); productPriceArray.push(25);          
+   productNameArray.push('蜂蜜'); productPriceArray.push(25);          
+   productNameArray.push('蘋果'); productPriceArray.push(25);          
+   productNameArray.push('鳳梨'); productPriceArray.push(25);             
+   productNameArray.push('烏龍茶'); productPriceArray.push(25);          
+   productNameArray.push('黑砂糖'); productPriceArray.push(25);          
+}
