@@ -31,7 +31,6 @@ var sendReservationSetup= function()
                 reservation.phone= undefined;
                 reservation.takeTime = undefined;
                 reservation.taken = undefined;
-       
 
                 var output = '';
                 for(var key in reservation)
@@ -42,9 +41,9 @@ var sendReservationSetup= function()
                     output+=key+" x"+obj;
 
                 }
+
                 output+="\n總價："+total+"\n領取時間"+takeTime;
 				//console.log(output);
-
                 alert(output);
             });
         }

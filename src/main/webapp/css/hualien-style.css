@@ -18,6 +18,30 @@ body {
 #shopping-cart{
 	position: fixed;
 }
+#info-pad{
+	width: 70%; 
+	margin-left:auto; 
+	margin-right: auto;
+	margin-top: 30px;
+	padding: 0px 50px;
+	padding-bottom: 20px;
+}
+#info-pad ol{
+	padding-bottom: 10px;
+}
+#info-pad li{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+#info-pad p{
+	font-size: 20px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+#info-pad a{
+	color:#6D4C41 ;
+}
+
 @media (min-width: 993px){
 	#cart{
 		height: 450px;
@@ -31,8 +55,13 @@ body {
 	.product-section{
 		margin-left: 0;
 	}
+	#info-pad{
+		margin-top: 0;
+		width:100%;
+	}
 	
 }
+
 
 .navbar-default {
 	background-color: #6D4C41;
