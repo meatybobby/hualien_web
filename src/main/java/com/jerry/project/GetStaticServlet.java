@@ -33,9 +33,10 @@ public class GetStaticServlet extends HttpServlet{
 	        	//query.setFilter(queryFilter);
 	        	
 	        	List<Entity> reservations = datastore.prepare(query).asList(FetchOptions.Builder.withLimit(10000));
-	        	for (Entity entity : reservations) {
+	        	/*for (Entity entity : reservations) {
 					
-				}
+				}*/
+	        	resp.setCharacterEncoding("UTF-8");
 	        	resp.getWriter().write(JSONUtility.ListToJSON(reservations,"reservations"));
 	        	if(reservations.size()==0){
 	        		resp.getWriter().write("not found...");

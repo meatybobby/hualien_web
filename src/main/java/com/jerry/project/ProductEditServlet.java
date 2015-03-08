@@ -33,6 +33,7 @@ public class ProductEditServlet extends HttpServlet {
 	        	 
 	        	List<Entity> products= datastore.prepare(query).asList(FetchOptions.Builder.withLimit(100));
 	        	System.out.print(products.size());
+	        	resp.setCharacterEncoding("UTF-8");
 	        	if(products.size()!=0){
 	        		System.out.println("have record");
 	        		for(Entity e:products){

@@ -29,6 +29,7 @@ var sendReservationSetup= function()
                 reservation.total= undefined;
                 reservation.phone= undefined;
 
+
                 var output = '';
                 for(var key in reservation)
                 {
@@ -38,6 +39,7 @@ var sendReservationSetup= function()
                     output+=key+" x"+obj;
 
                 }
+
                 alert(output);
             });
         }
@@ -51,10 +53,9 @@ var sendReservationSetup= function()
             jobj.name = encodeURIComponent($("input#name").val());
             clientName =$("input#name").val();
             phone = jobj.phone;
-
+			var timeVal=parseInt($('#get-time').val());
             //jobj.email = "";
-            
-
+			jobj.takeTime="3/"+(17+timeVal);
             var sendArray = reservationArray.slice(0);
             
             for(var i=0;i<sendArray.length;i++)
@@ -87,7 +88,8 @@ var sendReservationSetup= function()
                         $('#myModal').modal('show');
                         $('.modal-body').html(
                         "<p>下單成功!!</p>"
-                        +"<p>開學後請至水木眼鏡行前付款</p>"
+                        +"<p>請在預購週結束前，至小吃部付款</p>"
+                        +"<p>並依選定日期，於下週至小吃部領取商品</p>"
                         
                         +"<p>*注意* 一支電話只能填寫一筆訂單，重複填寫會覆蓋掉之前的訂單</p>"
                         );

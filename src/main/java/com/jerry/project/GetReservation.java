@@ -45,8 +45,9 @@ public class GetReservation extends HttpServlet {
 
         	Filter queryFilter = CompositeFilterOperator.and(phoneFilter,paidFilter);
         	Query query = new Query("reservations", reservationKey).setFilter(phoneFilter);
-        	 
+        	
         	List<Entity> reservations = datastore.prepare(query).asList(FetchOptions.Builder.withLimit(100));
+        	resp.setCharacterEncoding("UTF-8");
         	if(reservations.size()!=0){
             	resp.getWriter().write(JSONUtility.ListToJSON(reservations,"reservations"));
         	}

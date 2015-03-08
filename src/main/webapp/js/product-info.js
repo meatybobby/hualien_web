@@ -1,12 +1,13 @@
  $(document).ready(init);
  
 
+var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true';
 var public_spreadsheet_url = '//https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true';
 //https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/pubhtml?gid=0&single=true
 //https://docs.google.com/spreadsheets/d/1zoBd4RGb1XXeXfOHiG7Y1P9nt6vKOeikRl2tl53YUjo/edit#gid=0
 
 //梅竹網https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true
-//https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/edit#gid=0
+//https://docs.google.com/spreadsheets/d/12zcJ53PgU-vB2xmrZERwRKAR3voVitJCJHuHr_wYKPs/pubhtml?gid=0&single=true
 function init() {
 addtocartsetup();
   updateCartInfo();
@@ -17,7 +18,7 @@ addtocartsetup();
                    simpleSheet: true } );
 }
 function showInfo(data, tabletop) {
-  updateGrid(data);
+  //updateGrid(data);
 }
 
 iconURL ="https://89a57e458b863f4e685427c3cabe0da86666b2b0-www.googledrive.com/host/0B730ssCZsL8Tfjc4UHFPUFdEZ21VRlQ4ejhaUTlsWkhEUWJFcWFoOWR4aVh6LUZqeU1WS00/";
@@ -27,7 +28,7 @@ function updateGrid(data)
 
     products = data;
     var modalString ='';
-    for(var listNum = 0;listNum<1;listNum++){
+    for(var listNum = 0;listNum<2;listNum++){
 
      var tableString ='';
         for(var i=0;i<4;i++)
@@ -58,7 +59,7 @@ function updateGrid(data)
         +"</select></p>";
           }
           else if(products[index].hasSize=='part')
-          {
+            {
             tableString+="<p class='size'>尺寸： <select  name='size'>"
           +"<option value='S'>S</option>"
           +"<option selected value='M'>M</option>"
@@ -126,9 +127,9 @@ function updateGrid(data)
          +"</div>";
       }
   $('#productlist'+(listNum+1)).html(tableString);
- //$('#modals').html(modalString+'<div class="md-overlay"></div>');
+  $('#modals').html(modalString+'<div class="md-overlay"></div>');
   }
     //$('#productTable').html(tableString);
   addtocartsetup();
- // ModalEffects();
+  ModalEffects();
 }

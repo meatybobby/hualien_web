@@ -45,15 +45,12 @@ var addtocartsetup= function()
                 
                 if(res.num>0)
                 {
-                    res.name = products[i].short_name;
+					var c;
+					for(c=0;c<11;c++)
+						if(classStart[c+1]>i) break;
+                    res.name = productClass[c]+' '+productName[i];
 
-                    if(products[i].hasSize!='FALSE')
-                    {
-                        res.size = $(this).siblings('.size').children('select').val()
-                        res.name+=res.size;
-                    }    
-
-                    res.price = products[i].online_price;
+                    res.price = price[i];
 
                     if(!checkExist(res))
                     reservationArray.push(res);

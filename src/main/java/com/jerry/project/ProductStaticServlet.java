@@ -60,7 +60,7 @@ public class ProductStaticServlet extends HttpServlet {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-	        	
+	        	resp.setCharacterEncoding("UTF-8");
 	        	resp.getWriter().write(jsonArray.toString());
 	        	if(reservations.size()==0){
 	        		resp.getWriter().write("not found");
