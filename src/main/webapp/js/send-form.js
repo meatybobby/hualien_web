@@ -38,7 +38,7 @@ var sendReservationSetup= function()
 
                     var obj = reservation[key];
                     if(obj!=undefined)
-                    output+=key+" x"+obj;
+                    output+=key+" x"+obj+"\n";
 
                 }
 
